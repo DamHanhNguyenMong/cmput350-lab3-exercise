@@ -133,5 +133,5 @@ int main() {
     std::cout << "thingyPtr after makeSharedBasic: " << thingyPtr.get() << '\n' << std::endl;
     std::cout << "thingyPtr useCount: " << thingyPtr.useCount() << '\n' << std::endl;
 
-    return 0;
+    return EXIT_SUCCESS;
 }
